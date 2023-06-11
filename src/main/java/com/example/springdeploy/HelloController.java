@@ -17,7 +17,7 @@ public class HelloController {
     return "hola mundo, como estas?, estoy probando el texto, hasta luego";
 } // aca esta el texto que estara en la URL
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
     return """
              <!doctype html>
